@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript基礎</title>
+</head>
+
+<body>
+    <h1 id="heading">見出し</h1>
+    <p id="elem">変化させたい要素</p>
+    <Script>
+        const elem = document.getElementById('elem');
+        console.log(elem);
+        elem.style.color = '#ff0000';
+        elem.style.backgroundColor = '#0000ff';
+
+
+        const heading = document.getElementById('heading');
+        console.log(heading);
+        heading.style.fontSize = '70px';
+        heading.style.backgroundColor = '#ff0000';
+    </Script>
+</body>
+
+</html>
